@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f3f3;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: #3897f0;
+    border: none;
+}
+
+.img-fluid {
+    border-radius: 10px;
+}
+
+.rounded-circle {
+    width: 150px; /* Defina a largura desejada */
+    height: 150px; /* Defina a altura desejada */
+    border: 3px solid #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.gallery-image {
+    width: 100%;
+    height: 300px; /* Define uma altura fixa */
+    object-fit: contain; /* Garante que a imagem seja ajustada ao contêiner sem cortes */
+    background-color: #f0f0f0; /* Adiciona um fundo para imagens que não preenchem todo o quadrado */
+    border-radius: 5px; /* Opcional: adiciona bordas arredondadas */
+    margin-bottom: 15px; /* Espaço entre as imagens */
+    display: block;
+}
